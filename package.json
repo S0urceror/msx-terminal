@@ -1,0 +1,20 @@
+{
+  "name": "msx-terminal",
+  "version": "1.0.0",
+  "description": "Connect to the MSX via serial and display the VT52 compatible escape codes for a full MSX experience",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "serialport": "^9.2.0",
+    "terminal-kit": "^2.1.6"
+  },
+  "devDependencies": {
+    "@types/node": "^16.7.1",
+    "@types/serialport": "^8.0.2",
+    "@types/terminal-kit": "^1.28.4"
+  }
+}
